@@ -11,3 +11,115 @@
  *= require_self
  *= require_tree .
  */
+body {
+  background-color: #fff8dc;
+  margin: 50px 100px;
+}
+
+header {
+  position: relative;
+  max-width: 1200px;
+  margin: 20px auto;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  margin: auto;
+  padding-bottom: 10px;
+  /*margin-left: 30px;*/
+
+  
+ /* padding-left: 50px;*/
+}
+
+header p {
+  
+  text-align: center;
+  font-family: Garamond, Rockwell, Times, serif;
+  font-size: 80px;
+  color: steelblue;
+  margin: 20px;  
+}
+
+article {
+  font-family: Garamond;
+  color: steelblue;
+  padding-bottom: 60px;
+  padding-left: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  
+
+}
+
+#mainpic {
+  float: right;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+nav ul {
+  text-align: center;
+  padding-left: 0;
+}
+
+nav ul li {
+ 
+  border-radius: 8px;
+  display: inline-block;
+  height: 35px;
+  width: 150px;
+  background-color: #fff8dc;
+  font-family: Garamond;
+  color: steelblue;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 50px;
+  
+}
+
+a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color:green;
+}
+
+#photo-container {
+  text-align: center;
+  
+}
+
+.photos {
+  display: inline-block;
+  height:300px;
+  width: 350px;
+  border-radius: 5px;
+  font-family: Garamond;
+  font-size: 20px;
+  color: steelblue;
+  margin: 0 3px;
+  padding-bottom: 20px;
+  
+}
+
+footer {
+   position: relative;
+  max-width: 1200px;
+  margin: 20px auto;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  margin: auto;
+}
+
+footer p {
+  float: right;
+  font-family: Garamond;
+  color: steelblue;
+}
